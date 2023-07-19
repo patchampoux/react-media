@@ -1,5 +1,38 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Omar Ward-Maggio",
+      "id": 2
+    },
+    {
+      "name": "Luis Kutch",
+      "id": 3
+    },
+    {
+      "name": "Willis MacGyver PhD",
+      "id": 4
+    },
+    {
+      "name": "Marty Dickinson I",
+      "id": 5
+    },
+    {
+      "name": "Leah Hills",
+      "id": 6
+    },
+    {
+      "name": "Derek Windler",
+      "id": 7
+    },
+    {
+      "name": "Nick Medhurst",
+      "id": 8
+    }
+  ],
   "albums": [],
   "photos": []
 }
