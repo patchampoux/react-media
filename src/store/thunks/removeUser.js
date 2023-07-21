@@ -1,10 +1,10 @@
-import {createAsyncThunk} from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
 const removeUser = createAsyncThunk('users/remove', async (user) => {
-	await axios.delete(`http://192.168.1.62:3001/users/${user.id}`);
+  await axios.delete(`http://192.168.1.62:3001/users/${user.id}`);
 
-	return user;
+  return user;
 });
 
-export {removeUser};
+export { removeUser };

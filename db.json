@@ -29,6 +29,22 @@
       "id": 7
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Modern Soft Chicken",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Concrete Computer",
+      "id": 12
+    }
+  ],
   "photos": []
 }
