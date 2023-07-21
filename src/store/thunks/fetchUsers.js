@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const fetchUsers = createAsyncThunk('users/fetch', async () => {
-  const response = await axios.get('http://192.168.2.33:3001/users');
+  const response = await axios.get('http://192.168.1.62:3001/users');
 
   // DEV ONLY!!!
   await pause(1000);
