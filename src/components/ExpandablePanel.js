@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { GoChevronDown, GoChevronUp } from 'react-icons/go';
-import Button from "./Button";
+import { GoChevronDown, GoChevronLeft } from 'react-icons/go';
 
 function ExpandablePanel({ header, children }) {
   const [expanded, setExpanded] = useState(false);
@@ -15,9 +14,9 @@ function ExpandablePanel({ header, children }) {
         <div className="flex flex-row items-center justify-between">
           {header}
         </div>
-        <Button onClick={handleClick} className="cursor-pointer">
-          {expanded ? <GoChevronUp /> : <GoChevronDown />}
-        </Button>
+        <div onClick={handleClick} className="cursor-pointer">
+          {expanded ? <GoChevronDown /> : <GoChevronLeft />}
+        </div>
       </div>
       {expanded && <div className="p-2 border-t">{children}</div>}
     </div>

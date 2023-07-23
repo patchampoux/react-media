@@ -44,7 +44,43 @@
       "userId": 1,
       "title": "Fantastic Concrete Computer",
       "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Awesome Granite Keyboard",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Modern Concrete Gloves",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Bespoke Steel Salad",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Steel Chicken",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Small Plastic Bacon",
+      "id": 17
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7289193329852416",
+      "id": 1
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1671526925467648",
+      "id": 2
+    }
+  ]
 }
